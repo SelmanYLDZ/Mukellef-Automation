@@ -38,10 +38,9 @@ public abstract class BasePage {
     @FindBy(xpath = "//span[@class='user-name']")
     public WebElement myUserName;
 
+    /*
     @FindBy(xpath = ("//a[@class='dropdown-toggle nav-link dropdown-user-link dropdown-paddings']")
      public WebElement userAvatar;
-
-
 
     public void waitUntilLoaderScreenDisappear(){
         try{
@@ -58,5 +57,7 @@ public abstract class BasePage {
             return myUserName.getText();
 
             }
+
+            */
     }
 
